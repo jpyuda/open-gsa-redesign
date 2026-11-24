@@ -1,6 +1,3 @@
-- title: Acquisition Gateway Listings API
-  description: This page is a placeholder. The APIs are not yet available.
-  url: https://open.gsa.gov/api/ag-api/
 - title: Analytics.usa.gov API
   description: The data for this API comes from Analytics.usa.gov, which is a unified Google Analytics account for U.S. federal government agencies known as the Digital Analytics Program. This program helps government agencies understand how people find, access, and use government services online. The program does not track individuals, and anonymizes the IP addresses of visitors.
   url: https://open.gsa.gov/api/dap/
@@ -32,7 +29,7 @@
   description: This API contains the allowed reimbursement rates for hotel stays and meals for federal travelers.
   url: https://open.gsa.gov/api/perdiem/
 - title: Regulations.gov API
-  description: Regulations.gov offers a GET API that allows searching for documents, comments, and dockets.
+  description: Regulations.gov offers a GET API that allows searching for documents, comments, and dockets. Additionally,  a POST API is offered that allows users to submit comments.
   url: https://open.gsa.gov/api/regulationsgov/
 - title: SAM.gov Assistance Listings Public API
   description: The Assistance Listings Public API provides Active and Inactive federal assistance listings data, similar to the CFDA catalog.
@@ -76,24 +73,24 @@
 - title: SAM.gov Subaward reporting Bulk Upload API
   description: This API provides information for publishing subcontract and subaward reports to SAM.gov
   url: https://open.gsa.gov/api/subawards-bulkupload-api/
-- title: SearchGov Clicks API
-  description: For SearchGov customers. Use the clicks API to send SearchGov your click data. You must use both APIs for a complete search experience.
+- title: SAM.gov Subcontracting Plan Reporting Outbound API
+  description: API to retrieve detailed information for submitted ISRs and SSRs from SAM.gov using various searchable parameters.
+  url: https://open.gsa.gov/api/spr-api/
+- title: Search.gov Clicks API
+  description: For Search.gov customers. This API allows you to collect click data for both analytics reporting and as an input to relevance ranking of search results.
   url: https://open.gsa.gov/api/searchgov-clicks/
-- title: SearchGov Results API
+- title: Search.Gov Results API
   description: For SearchGov customers. Use the results API to receive search results from SearchGov. You must use both APIs for a complete search experience.
   url: https://open.gsa.gov/api/searchgov-results/
 - title: Site Scanning API
   description: The Site Scanning API provides a wide range of scan data for public federal websites and their website health and best practices.
   url: https://open.gsa.gov/api/site-scanning-api/
-- title: Sustainable Facilities Tool API
-  description: The Sustainable Facilities Tool offers useful sustainable guidance and tools for a variety of roles.
-  url: https://sftool.gov/developers
 - title: TMSS 2.0 Rate Query API
   description: TMSS 2.0 Rate Query API provides shipment cost for a regular Household Goods (HHG) shipment or for an Extended Storage (EXSTG) shipment.
   url: https://open.gsa.gov/api/ratequeryhhg/
-- title: Touchpoints
-  description: Touchpoints makes customer feedback easier for federal agencies, and Touchpoints API provides an convenient, programmatic way to access the data for your Forms and Responses.
-  url: https://github.com/gsa/touchpoints/wiki/API
+- title: Touchpoints API
+  description: For Touchpoints customers. The Touchpoints API provides an convenient, programmatic way to access the data for your Forms and Responses.
+  url: https://touchpoints.digital.gov/api-overview/
 #- title: System for Award Management API
 #  description: A RESTful method of retrieving public information about the businesses or individuals within the System for Award Management data set.
 #  url: https://gsa.github.io/sam_api/sam/
